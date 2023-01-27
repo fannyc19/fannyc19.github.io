@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Grocery List</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body onload = "initialize();">
+  
+  <div class = "container">
+    <div id = logoname>
+      <h2 class = "name">Shop Lift Up</h2>
+    </div>
+    
+    <div id = "picture">
+      <img src = "logo.png" height="100px" width="175px"/>
+    </div>
+
+    <div id = "content">
+      <br></br> <br></br>
+      <h2 class = "title">Grocery List</h2>
+      <div id = "groceryOutput" class = "groceryOut"></div>
+    </div>
+
+    <div id = "inputs">
+      <form id = "inputform">
+        <textarea name = "groceryinput"></textarea>
+      </form> 
+      <br /> <br/>
+      <button id = "add" class = "button">Add Grocery</button>
+      <button id = "delete" class = "button">Delete Grocery</button>
+      <button id = "moveUp" class = "button">Up</button>
+      <button id = "moveDown" class = "button">Down</button>
+    </div>
+    
+    <div id = "vid">
+      <video width = 450px height = 300px autoplay muted controls loop>
+        <source src="grocery.mp4" type="video/mp4">
+        </video>
+      </div>
+    
+  </div>  
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #e1f0e0;
+  text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 200px 200px 0.75fr 0.75fr 0.75fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#logoname{
+  grid-column: 1;
+}
+#picture{
+  display: grid;
+  grid-column: 2;
+  align-items: center;
+  justify-items: center;
+}
+
+#content{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+#inputs{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+#vid{
+    grid-column: 4 / span 2;
+    grid-row-start: 2;
+}
+
+img{
+  padding: none;
+  float: right;
+}
+
+.name{
+  text-decoration: 30pt;
+  text-align: center;
+  font-size: 40pt;
+  color: #29ab87;
+  font-family: 'Brush Script MT', cursive;
+}
+
+h2{
+  text-decoration: 20pt;
+  text-align: center;
+  font-size: 40pt;
+  color: #6eda16;
+  font-family: Bradley Hand, cursive;
+}
+
+.groceryOut{
+  font-size: 20pt;
+  color: #b5c205;
+  font-family: Rockwell, sans-serif;
+  text-align: center;
+  border-radius: 1%;
+}
+
+form{
+  text-align: center;
+}
+
+textarea{
+  background-color: #E5F3E9;
+}
+
+.button{
+  background-color: #77DD77;
+  border: 2px solid #4CAF50;
+  border-radius: 27px;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-family: Jazz LET, fantasy;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+}
